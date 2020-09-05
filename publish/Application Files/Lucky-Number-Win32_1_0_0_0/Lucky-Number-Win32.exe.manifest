@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Lucky-Number-Win32.exe" version="1.0.0.0" publicKeyToken="3d2897f4fb9f3ae2" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Lucky-Number-Win32" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Lucky-Number-Win32.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opzioni manifesto Controllo dell'account utente
+          Se si vuole modificare il livello di Controllo dell'account utente di Windows, sostituire il
+          nodo requestedExecutionLevel con uno dei seguenti.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Se si vuole usare Virtualizzazione file system e registro di sistema per la 
+         compatibilità con le versioni precedenti, eliminare il nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Lucky-Number-Win32.exe" size="10728">
+      <assemblyIdentity name="Lucky-Number-Win32" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>KEX/6WD7ETDcUM4Aeqq74tzHyYpKj7gQFPpO0KRxf18=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Lucky-Number-Win32.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-E82U5F2\meshmi" issuerKeyHash="8009818fc241e97517adfd455296eb928dc26913" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>X8XLXQ7s3vlwG3LfADq5iCXs57UTvlWbji32hiQ2b14=</DigestValue></Reference></SignedInfo><SignatureValue>rCsb1fxAd95IF+HQh6WfSEAeDxgwxu+wUEQemQs8oPs3EAF4dVlWGw3aZBLz9XpZld4nhG3f0HO/G1r2QYiEEjeJVZXn/jLBFKEBr5n+adaf3dzbsFdRhmx/HZ58NLBEiyG481dZyrw28qdgQq0zk0DVq/qmE/T+lYq/QEBasDY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>yAwvlQEwLEylg1qx6f5skDeFyV15cdBYBA2jo4lvOmOJIh10OxMuhOKqrzj0nKFwwFJGLU3C4Vqc+vzmdqFeR+lShuVuVb8MS0CEAUaUkUoY66kmwLSlUz42Xp47zBeDN8bpBIv28l1FqOPfTH6tk27dHWk7TdFZoKx6f3koR2U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="5e6f362486f62d8e9b55be13b5e7ec2588b93a00df721b70f9deec0e5dcbc55f" Description="" Url=""><as:assemblyIdentity name="Lucky-Number-Win32.exe" version="1.0.0.0" publicKeyToken="3d2897f4fb9f3ae2" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-E82U5F2\meshmi</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>W4M697iUktNz9X7dsclCelN6a+K83Ka92A/m7jrg5as=</DigestValue></Reference></SignedInfo><SignatureValue>vcU82pY+FLI88luFU+2KK8F45JROGZmRA7MtYLNjd8jYj69WHUkAssq8gLqIRptc4lczzOL3khk+RxhTIFl+qBM8hiAGIXCYrKrgnmA2aUC7FRKgN0H0xWU1oSPbwzGb+9BvDUt/2xILnxv1uXKV8xxk4UOhRjYuGZIit5YYWG4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>yAwvlQEwLEylg1qx6f5skDeFyV15cdBYBA2jo4lvOmOJIh10OxMuhOKqrzj0nKFwwFJGLU3C4Vqc+vzmdqFeR+lShuVuVb8MS0CEAUaUkUoY66kmwLSlUz42Xp47zBeDN8bpBIv28l1FqOPfTH6tk27dHWk7TdFZoKx6f3koR2U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB8TCCAVqgAwIBAgIQcKMm6Snmg5pFHJclTDO+EjANBgkqhkiG9w0BAQsFADA3MTUwMwYDVQQDHiwARABFAFMASwBUAE8AUAAtAEUAOAAyAFUANQBGADIAXABtAGUAcwBoAG0AaTAeFw0yMDA3MTYwNjIyMjlaFw0yMTA3MTYxMjIyMjlaMDcxNTAzBgNVBAMeLABEAEUAUwBLAFQATwBQAC0ARQA4ADIAVQA1AEYAMgBcAG0AZQBzAGgAbQBpMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDIDC+VATAsTKWDWrHp/myQN4XJXXlx0FgEDaOjiW86Y4kiHXQ7Ey6E4qqvOPScoXDAUkYtTcLhWpz6/OZ2oV5H6VKG5W5VvwxLQIQBRpSRShjrqSbAtKVTPjZenjvMF4M3xukEi/byXUWo499Mfq2Tbt0daTtN0VmgrHp/eShHZQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAFcrvT85Jhk3ezPLntQmVQDaRP8Q0FKPmlyZ4gwg8BtV6m8Z1Bs2ttK4Lv0C2dhHh24ovpWHyLl2YYL6NzNtdHoC6xfazBwzQikj8LnCzhcXMe3brEiNFEVZPZp+Eh2OJu7ogA30tA+fnfflIWpQbANewoUkm4VLILEvQ3b2w3K4</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

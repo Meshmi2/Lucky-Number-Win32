@@ -1,0 +1,14 @@
+C:\Users\meshmi\source\repos\Lucky-Number-Win32\bin\Debug\Lucky-Number-Win32.exe.config
+C:\Users\meshmi\source\repos\Lucky-Number-Win32\bin\Debug\Lucky-Number-Win32.exe
+C:\Users\meshmi\source\repos\Lucky-Number-Win32\bin\Debug\Lucky-Number-Win32.pdb
+C:\Users\meshmi\source\repos\Lucky-Number-Win32\obj\Debug\Lucky-Number-Win32.csprojAssemblyReference.cache
+C:\Users\meshmi\source\repos\Lucky-Number-Win32\obj\Debug\Lucky_Number_Win32.Form1.resources
+C:\Users\meshmi\source\repos\Lucky-Number-Win32\obj\Debug\Lucky_Number_Win32.Properties.Resources.resources
+C:\Users\meshmi\source\repos\Lucky-Number-Win32\obj\Debug\Lucky-Number-Win32.csproj.GenerateResource.cache
+C:\Users\meshmi\source\repos\Lucky-Number-Win32\obj\Debug\Lucky-Number-Win32.csproj.CoreCompileInputs.cache
+C:\Users\meshmi\source\repos\Lucky-Number-Win32\obj\Debug\Lucky-Number-Win32.exe
+C:\Users\meshmi\source\repos\Lucky-Number-Win32\obj\Debug\Lucky-Number-Win32.pdb
+C:\Users\meshmi\source\repos\Lucky-Number-Win32\bin\Debug\Lucky-Number-Win32.exe.manifest
+C:\Users\meshmi\source\repos\Lucky-Number-Win32\bin\Debug\Lucky-Number-Win32.application
+C:\Users\meshmi\source\repos\Lucky-Number-Win32\obj\Debug\Lucky-Number-Win32.exe.manifest
+C:\Users\meshmi\source\repos\Lucky-Number-Win32\obj\Debug\Lucky-Number-Win32.application
